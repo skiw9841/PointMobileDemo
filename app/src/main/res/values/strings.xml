@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PointMobileDemo</string>
+
+    <string name="marital_status_title">Marital Status</string>
+    <string name="best_contact_title">Best Contact</string>
+    <string name="own_rent_title">Own/Rent</string>
+
+    <string name="cphone">Cell Phone</string>
+    <string name="bphone">B Phone</string>
+    <string name="hphone">H Phone</string>
+</resources>

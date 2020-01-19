@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+
+<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<!-- header bar -->
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:background="@drawable/header_bar" >
+
+			<ImageView
+				android:id="@+id/header_menu_btn"
+				android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="5dp"
+				android:layout_alignParentLeft="true"
+				android:scaleType="fitXY"
+				android:src="@drawable/ic_menu"/>
+			<TextView
+				android:id="@+id/header_name"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="40dp"
+				android:gravity="center_vertical"
+				android:textColor="#ffffff"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:lines="1"
+				android:maxLength="40"/>
+
+			<ImageView
+				android:id="@+id/add_loan_bt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:src="@drawable/header_plus"
+				android:layout_centerInParent="true"/>
+
+		</RelativeLayout>
+
+		<!-- screen name & updated date/time -->
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:background="@drawable/title_bar">
+			<TextView
+				android:id="@+id/screen_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:layout_gravity="center_vertical"
+				android:textColor="#ffffff"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:layout_weight="1"
+				android:text="Loans"/>
+			<TextView
+				android:id="@+id/last_update"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10dp"
+				android:layout_gravity="center_vertical"
+				android:textColor="#ffffff"
+				android:textSize="12dp"
+				android:textStyle="italic"
+				android:layout_weight="0"/>
+		</LinearLayout>
+
+		<!-- Search Bar -->
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="horizontal">
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent">
+				<ImageButton
+					android:id="@+id/search_by_btn"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:background="@drawable/search_bar_1"/>
+				<TextView
+					android:id="@+id/search_by_text"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="30dp"
+					android:textColor="#000000"
+					android:textSize="14sp"/>
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@drawable/search_bar_2">
+				<EditText
+					android:id="@+id/search_edit"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="10dp"
+					android:background="#00000000"
+					android:textColor="#000000"
+					android:textSize="14sp"
+					android:singleLine="true"/>
+				<LinearLayout
+					android:id="@+id/search_option"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:orientation="horizontal">
+					<ImageView
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						android:background="@drawable/search_bar_4"/>
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:background="@drawable/search_bar_4_1"/>
+				</LinearLayout>
+
+				<TextView
+					android:id="@+id/search_option_text"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="10dp"
+					android:textColor="#000000"
+					android:textSize="14sp"
+					android:singleLine="true"/>
+
+			</RelativeLayout>
+			<ImageButton
+				android:id="@+id/search_btn"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:background="@drawable/search_bar_3"/>
+
+		</LinearLayout>
+		<!-- Section -->
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/pipeline_list"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:cacheColorHint="#00000000"/>
+	</LinearLayout>
+
+	<ProgressBar
+		android:id="@+id/progress_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subject_property_unit">
+        <item>1 Unit</item>
+        <item>2-4 Units</item>
+        <item>Condo</item>
+        <item>PUD</item>
+        <item>Co-Op</item>
+        <item>Manufactured Single Wide</item>
+        <item>Manufactured Multiwide</item>
+    </string-array>
+    <string-array name="best_contact">
+        <item>Cell Phone</item>
+        <item>H Phone</item>
+        <item>B Phone</item>
+    </string-array>
+    <string-array name="own_rent">
+        <item>Own</item>
+        <item>Rent</item>
+    </string-array>
+    <string-array name="marital_status">
+        <item></item>
+        <item>Married</item>
+        <item>Unmarried</item>
+        <item>Separated</item>
+    </string-array>
+    <string-array name="mkt_value_array">
+        <item></item>
+        <item>Purchase</item>
+        <item>R/T Refi</item>
+        <item>C/O Refi</item>
+    </string-array>
+    <string-array name="doc_type">
+        <item>Full-24</item>
+        <item>Streamline</item>
+    </string-array>
+    <string-array name="property_state">
+        <item></item>
+        <item>AL-Alabama</item>
+        <item>AK-Alaska</item>
+        <item>AZ-Arizona</item>
+        <item>AR-Arkansas</item>
+        <item>CA-California</item>
+        <item>CO-Colorado</item>
+        <item>CT-Connecticut</item>
+        <item>DE-Delaware</item>
+        <item>DC-Dist Columbia</item>
+        <item>FL-Florida</item>
+        <item>GA-Georgia</item>
+        <item>HI-Hawaii</item>
+        <item>ID-Idaho</item>
+        <item>IL-Illinois</item>
+        <item>IN-Indiana</item>
+        <item>IA-Iowa</item>
+        <item>KS-Kansas</item>
+        <item>KY-Kentucky</item>
+        <item>LA-Louisiana</item>
+        <item>ME-Maine</item>
+        <item>MD-Maryland</item>
+        <item>MA-Massachusetts</item>
+        <item>MI-Michigan</item>
+        <item>MN-Minnesota</item>
+        <item>MS-Mississippi</item>
+        <item>MO-Missouri</item>
+        <item>MT-Montana</item>
+        <item>NE-Nebraska</item>
+        <item>NV-Nevada</item>
+        <item>NH-New Hampshire</item>
+        <item>NJ-New Jersey</item>
+        <item>NM-New Mexico</item>
+        <item>NY-New York</item>
+        <item>NC-North Carolina</item>
+        <item>ND-North Dakota</item>
+        <item>OH-Ohio</item>
+        <item>OK-Oklahoma</item>
+        <item>OR-Oregon</item>
+        <item>PA-Pennsylvania</item>
+        <item>RI-Rhode Island</item>
+        <item>SC-South Carolina</item>
+        <item>SD-South Dakota</item>
+        <item>TN-Tennessee</item>
+        <item>TX-Texas</item>
+        <item>UT-Utah</item>
+        <item>VT-Vermont</item>
+        <item>VA-Virginia</item>
+        <item>WA-Washington</item>
+        <item>WV-West Virginia</item>
+        <item>WI-Wisconsin</item>
+        <item>WY-Wyoming</item>
+    </string-array>
+    <string-array name="occupancy">
+        <item>Owner Occ</item>
+        <item>2nd Home</item>
+        <item>Rental</item>
+    </string-array>
+    <string-array name="property_type">
+        <item>SFR/SFD</item>
+        <item>Condo</item>
+        <item>Low-Rise Condo</item>
+        <item>High-Rise Condo</item>
+        <item>Town Home</item>
+        <item>PUD-attached</item>
+        <item>PUD-detached</item>
+        <item>Co-op</item>
+        <item>2u</item>
+        <item>3u</item>
+        <item>4u</item>
+        <item>Mfg-1w</item>
+        <item>Mfg-2w</item>
+        <item>Mfg-3w</item>
+    </string-array>
+    <string-array name="fha_results">
+        <item>FHA: Accept</item>
+        <item>FHA: Refer</item>
+        <item>FHA: Unknown</item>
+    </string-array>
+    <string-array name="du_lp_results">
+        <item>MANUAL U/W</item>
+        <item>DU: Approve/Eligible</item>
+        <item>DU: Approve/Ineligible</item>
+        <item>DU: Refer/Eligible</item>
+        <item>DU: Refer/Ineligible</item>
+        <item>DU: EA-I/Ineligible</item>
+        <item>LP: Accept/Eligible</item>
+        <item>LP: Caution/Ineligible</item>
+        <item>LP: A- Level 2</item>
+        <item>LP: A- Level 3</item>
+        <item>LP: A- Level 4</item>
+        <item>LP: A- Level 5</item>
+        <item>GUS: Accept/Eligible</item>
+        <item>GUS: Accept/Ineligible</item>
+    </string-array>
+    <string-array name="du_lp_product">
+        <item>Fannie: Standard</item>
+        <item>Fannie: Flex 97</item>
+        <item>Fannie: Flex 100</item>
+        <item>Fannie: My Community</item>
+        <item>Fannie: Flex &lt;=95, CLTV&gt;95</item>
+        <item>Fannie: HomeStyle</item>
+        <item>Fannie: 203(k)</item>
+        <item>Fannie: Community 2nds</item>
+        <item>Fannie: Affordable 2nds</item>
+        <item>Fannie: Flex 75-25</item>
+        <item>Fannie: Flex 80/20</item>
+        <item>Fannie: FNMA 100</item>
+        <item>Freddie: Standard</item>
+        <item>Freddie: Alt 97</item>
+        <item>Freddie: 100</item>
+        <item>Freddie: Home Possible 100</item>
+        <item>Freddie: Home Possible 97</item>
+        <item>Freddie: A- Mortgages</item>
+        <item>Freddie: 80/20</item>
+	</string-array>    
+    <string-array name="mi_coverage">
+        <item>None</item>
+        <item>18%</item>
+        <item>25%</item>
+        <item>30%</item>
+        <item>35%</item>
+        <item>40%</item>
+    </string-array>
+    <string-array name="amort_term">
+        <item>All Terms</item>
+        <item>30 Years</item>
+        <item>20 Years</item>
+        <item>15 Years</item>
+        <item>10 Years</item>
+    </string-array>
+    <string-array name="prepay_yrs">
+        <item>None</item>
+        <item>6 Months</item>
+        <item>1 Year</item>
+        <item>2 Years</item>
+        <item>3 Years</item>
+        <item>4 Years</item>
+        <item>5 Years</item>
+    </string-array>
+    <string-array name="lock_type">
+        <item>Best Efforts</item>
+    </string-array>
+    <string-array name="lock_term">
+        <item>15 Days</item>
+        <item>30 Days</item>
+        <item>45 Days</item>
+        <item>60 Days</item>
+        <item>75 Days</item>
+    </string-array>
+</resources>
